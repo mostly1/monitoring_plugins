@@ -99,6 +99,9 @@ def check_fan_speed():
     string = "Current average fan speed: "+str(avg_fan_speed)+" Total Fans: "+str(num_fans)
     plugin_out(status, string)
 
+#the next two functions are semi flawed. As soon as a disk failure is known, the function exits. 
+#I need to find a way to allow it to continue checking the rest of the disks.
+#It also doesnt account for 1/3 and 2/3 populated servers. 
 
 def check_disk_health():
     num_disks = 0
