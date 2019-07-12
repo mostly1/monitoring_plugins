@@ -14,3 +14,5 @@ Monitoring plugins for icinga2
 - **cluster_total.py** = Checks entire cleversafe storage cluster via API. use controler as host IP
 
 - **check_switches.sh** = This plugin is old, probably the oldest one I wrote. It checks Arista switches and Dell Force10 switches for specific MIBS set in the script. This is a "works for me" type thing but I posted it incase anyone can use it. 
+- **check_ipmi.sh** = Script to check not only if ipmi is connected and working, but to also get the power usage from the server using dcmi from the bmc. 
+- **check_squid_proxy** very simple curl script to check the squid proxy. 
