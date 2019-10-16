@@ -1,5 +1,5 @@
 # monitoring_plugins
-Monitoring plugins for icinga2
+Monitoring plugins for icinga2 or nagios
 
 **Plugins in this folder:** 
 
