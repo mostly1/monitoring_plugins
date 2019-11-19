@@ -3,7 +3,7 @@ Monitoring plugins for icinga2 or nagios
 
 **Plugins in this folder:** 
 
-- **check_cleversafe.py** = Python plugin that uses cleversafe's internal API to check cluster health and stastical data. use "--help" for info about functionality 
+- **check_cleversafe.py** = Python plugin that uses cleversafe's internal API to check cluster health and staticstical data. use "--help" for info about functionality 
 
 - **check_cleversafe.sh** = Original plugin. Needs to have "get_parsed_info.sh" installed on controler to work. (only use if monitoring server cannot talk directly to other storage nodes). Uses ssh keys to connect securely. Make sure you have a key called nagios_key on all servers. 
 
